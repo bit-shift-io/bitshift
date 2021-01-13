@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>{{ title }}</title>
+  
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+  <link rel="stylesheet" href="static/css.css">
+  <link rel="stylesheet" href="static/css_002.css">
+  <link rel="stylesheet" href="static/icomoon/style.css">
+  <link rel="stylesheet" href="static/normalize.css">
+  <link rel="stylesheet" href="static/grid12.css">
+  <link rel="stylesheet" href="static/main.css">
+  
+  <link rel="stylesheet" href="static/unslider/unslider-dots.css">
+  <link rel="stylesheet" href="static/unslider/unslider.css">
+  <script src="static/jquery-1.12.1.js"></script>
+  <script src="static/unslider/unslider-min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102221627-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-102221627-1');
+    </script>
+</head>
+
+<body>
+<header>
+  <nav>
+    <input id="nav-trigger" class="nav-trigger" type="checkbox"><label for="nav-trigger"></label>
+    <div class="pull-left">
+      <a href="/"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="nav-logo" height="40"></a>
+    </div>
+    <ul class="pull-right">
+      <li class="{{ 'active' if active == 'trains-and-things' else '' }}"><a href="/trains-and-things">Trains &amp; Things</a></li>
+      <li class="{{ 'active' if active == 'dog-fight' else '' }}"><a href="/dog-fight">Dog Fight</a></li>
+      <li class="{{ 'active' if active == 'contact' else '' }}"><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>

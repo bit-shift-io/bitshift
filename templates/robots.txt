@@ -1,0 +1,6 @@
+User-agent: * 
+Disallow: /icomoon/
+Disallow: /unslider/
+Disallow: /resources/
+Disallow: /assets/
+Sitemap: sitemap.xml
