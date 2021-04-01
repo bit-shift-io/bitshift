@@ -37,4 +37,4 @@ if __name__ == "__main__":
     site = MySite(environment=environment, outpath="../public", searchpath=searchpath, encoding='utf8', logger=logger)
 
     # enable automatic reloading
-    site.render(use_reloader=True)
+    site.render(use_reloader=False)
