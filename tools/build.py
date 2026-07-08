@@ -20,7 +20,10 @@ class MySite(Site):
         return not filename.endswith(".html") and not filename.endswith(".css")
 
 if __name__ == "__main__":
-    searchpath="../templates"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(script_dir)
+    searchpath = os.path.join(project_root, "templates")
+    outpath = os.path.join(project_root, "public")
 
     env_globals={
     }
@@ -33,8 +36,8 @@ if __name__ == "__main__":
         loader=FileSystemLoader(searchpath=searchpath, encoding='utf8', followlinks=True)
     )
     environment.globals.update(env_globals)
- 
-    site = MySite(environment=environment, outpath="../public", searchpath=searchpath, encoding='utf8')
+
+    site = MySite(environment=environment, outpath=outpath, searchpath=searchpath, encoding='utf8')
 
     # enable automatic reloading
     site.render(use_reloader=False)

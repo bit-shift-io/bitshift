@@ -14,7 +14,9 @@ pip install -r requirements.txt
 Then run the build script:
 
 ```bash
-python tools/build.py
+python3 tools/build.py
 ```
+
+This will generate the `public/` folder with the static site. The script works from any directory in the project.
 
 All build tools are in the __tools__ directory
