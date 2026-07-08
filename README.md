@@ -3,4 +3,18 @@
 # bitshift
 Website for http://www.bitshift.rf.gd (via ftp) and https://www.bitshift.io (via firebase)
 
-All you need to start is in the __tools__ directory
+## Setup
+
+Install dependencies from requirements.txt:
+
+```bash
+pip install -r requirements.txt
+```
+
+Then run the build script:
+
+```bash
+python tools/build.py
+```
+
+All build tools are in the __tools__ directory

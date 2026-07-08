@@ -34,7 +34,7 @@ if __name__ == "__main__":
     )
     environment.globals.update(env_globals)
  
-    site = MySite(environment=environment, outpath="../public", searchpath=searchpath, encoding='utf8', logger=logger)
+    site = MySite(environment=environment, outpath="../public", searchpath=searchpath, encoding='utf8')
 
     # enable automatic reloading
     site.render(use_reloader=False)
