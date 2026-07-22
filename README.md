@@ -1,7 +1,7 @@
 ![](templates/static/logo-2.svg)
 
 # bitshift
-Website for https://bitshift.netlify.app
+Website for https://bitshiftio.netlify.app
 
 ## Setup
 
