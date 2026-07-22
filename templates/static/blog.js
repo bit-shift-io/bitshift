@@ -55,7 +55,9 @@ Promise.all([blog, tweets]).then(r => {
     });
 
     const mappedItems = mappedBlogItems.concat(mappedTweetItems);
-    const sortedItems = mappedItems.sort((a, b) => {
+    const threeMonthsAgo = moment().subtract(3, 'months');
+    const recentItems = mappedItems.filter(item => item.date.isAfter(threeMonthsAgo));
+    const sortedItems = recentItems.sort((a, b) => {
         return b.date - a.date;
     });
 
