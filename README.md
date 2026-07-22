@@ -1,7 +1,7 @@
 ![](templates/static/logo-2.svg)
 
 # bitshift
-Website for http://www.bitshift.rf.gd (via ftp) and https://www.bitshift.io (via firebase)
+Website for http://bitshift.netlify.app
 
 ## Setup
 

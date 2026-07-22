@@ -7,22 +7,22 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://www.bitshift.rf.gd/</loc>
-  <changefreq>weekly</changefreq>
-</url>
-
-<url>
-  <loc>http://www.bitshift.rf.gd/dog-fight</loc>
+  <loc>https://bitshiftio.netlify.app/</loc>
   <changefreq>monthly</changefreq>
 </url>
 
 <url>
-  <loc>http://www.bitshift.rf.gd/trains-and-things</loc>
-  <changefreq>weekly</changefreq>
+  <loc>https://bitshiftio.netlify.app/dog-fight</loc>
+  <changefreq>monthly</changefreq>
 </url>
 
 <url>
-  <loc>http://www.bitshift.rf.gd/contact</loc>
+  <loc>https://bitshiftio.netlify.app/trains-and-things</loc>
+  <changefreq>monthly</changefreq>
+</url>
+
+<url>
+  <loc>https://bitshiftio.netlify.app/contact</loc>
   <changefreq>monthly</changefreq>
 </url>
 </urlset>
