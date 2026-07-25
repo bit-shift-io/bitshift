@@ -88,4 +88,8 @@ Promise.all([blog, tweets]).then(r => {
 
         itemsContainer.appendChild(itemContainer);
     }
+
+    if (items.length > 0) {
+        document.body.classList.add('has-news');
+    }
 });

@@ -38,6 +38,11 @@ h2 {
 @media (max-width: 768px) {
   .jumbotron,
   .jumbotron-filter {
+      height: 29rem;
+  }
+
+  body.has-news .jumbotron,
+  body.has-news .jumbotron-filter {
       height: 44rem;
   }
 }
