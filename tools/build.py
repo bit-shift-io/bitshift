@@ -33,7 +33,8 @@ if __name__ == "__main__":
     logger.addHandler(logging.StreamHandler())
 
     environment = RelEnvironment(
-        loader=FileSystemLoader(searchpath=searchpath, encoding='utf8', followlinks=True)
+        loader=FileSystemLoader(searchpath=searchpath, encoding='utf8', followlinks=True),
+        trim_blocks=True, lstrip_blocks=True
     )
     environment.globals.update(env_globals)
 

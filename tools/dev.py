@@ -58,7 +58,8 @@ class MySite(Site):
 
 def build():
     environment = RelEnvironment(
-        loader=FileSystemLoader(searchpath=SEARCHPATH, encoding="utf8", followlinks=True)
+        loader=FileSystemLoader(searchpath=SEARCHPATH, encoding="utf8", followlinks=True),
+        trim_blocks=True, lstrip_blocks=True
     )
     site = MySite(environment=environment, outpath=OUTPATH, searchpath=SEARCHPATH, encoding="utf8")
     site.render(use_reloader=False)

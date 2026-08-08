@@ -3,4 +3,4 @@ Disallow: /icomoon/
 Disallow: /unslider/
 Disallow: /resources/
 Disallow: /assets/
-Sitemap: sitemap.xml
+Sitemap: https://bitshiftio.netlify.app/sitemap.xml

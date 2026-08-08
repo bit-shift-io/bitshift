@@ -1,6 +1,25 @@
 {% set active = "trains-and-things" %}
-{% set title = "bitshift >> Trains &amp; Things" %}
+{% set title = "Trains &amp; Things — real-time economic strategy | bitshift" %}
+{% set description = "Build a rail empire from a single track to a continent-spanning logistics network. Real-time economic strategy for Windows, macOS and Linux — play solo or with friends." %}
+{% set path = "/trains-and-things" %}
+{% set og_image = "og-trains-and-things.jpg" %}
 {% include '_header.html' %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Trains & Things",
+  "url": "https://bitshiftio.netlify.app/trains-and-things",
+  "image": "https://bitshiftio.netlify.app/static/og-trains-and-things.jpg",
+  "description": "A real-time economic strategy game. Build railways, meet supply and demand, and grow a logistics company from a single track to a continent-spanning network. Custom maps and mod support, on Windows, macOS and Linux.",
+  "genre": ["Strategy", "Management", "Simulation"],
+  "gamePlatform": ["PC", "Windows", "macOS", "Linux"],
+  "playMode": ["SinglePlayer", "MultiPlayer", "CoOp"],
+  "author": { "@type": "Organization", "name": "bitshift", "url": "https://bitshiftio.netlify.app/" },
+  "sameAs": "https://store.steampowered.com/app/878030/"
+}
+</script>
 
 <div class="jumbotron-filter">
 </div>
@@ -10,8 +29,8 @@
     <div class="row">
       <div class="col-md-6">
         <h1 class="main-title">Trains &amp; Things</h1>
-        <p>Build a logistics company from the ground up in this real time multiplayer focused economic strategy game.</p>
-        
+        <p>Build a rail empire from a single track to a continent-spanning logistics network. A real-time economic strategy game &mdash; play solo, or head to head and co-op with friends.</p>
+
       </div>
       
       <div class="col-md-6 news-column">
@@ -72,34 +91,50 @@
             <iframe src="https://store.steampowered.com/widget/878030/" frameborder="0" width="100%" height="190"></iframe>
         </div>
 
+        <h1 class="intro-title">Out of Early Access</h1>
+        <p>
+            Trains &amp; Things is now a finished 1.0 release. It has been rebuilt on a modern engine, with a
+            reworked track builder, faster terrain, a rescaled interface and a long list of fixes on top of the
+            Early Access build. It is done &mdash; not a work in progress.
+        </p>
+
         <h1 class="intro-title">Features</h1>
         <p>
-            <b>Multiplayer via internet and LAN</b> is what sits at the heart of Trains &amp; Things. Designed from the ground around multiplayer.
-            I don't know about you but trains are fun, but what is better is trains with your friends (or against them?)!
-        </p>
-        
-        <p>
-            <b>Real time economic strategy</b> means no waiting around for people to take their long winded turns. The <strike>battle</strike>, er business, waits for no man. As the saying goes, time is money, so take every second to get leverage over the competition.
+            <b>Start with one track and finish with a continent.</b> Trains &amp; Things is a real-time economic
+            strategy game about building a logistics company out of nothing, one profitable route at a time.
+            No turns, no waiting &mdash; time is money, so every second is one your competition isn't using.
         </p>
 
         <p>
-            <b>Manage a logistics company</b> by your self or in partnership with your friends. Take out a loan from the bank to build your empire and try not to sink in debt before your rise to corporate domination.
-        </p>
-            
-        <p>
-            <b>Build railways</b> as you extend your reach and your profits. Use what ever means secures the resources that will bring in the cash.
+            <b>Build railways</b> that go exactly where you meant them to. Laying track in most games is a fight;
+            here it's the best part &mdash; quick, intuitive, and it won't offend your sense of order.
         </p>
 
         <p>
-            <b>Transport numerous goods to meet supply and demand</b>, because diversifying is safer than putting all your eggs in one basket where the competition is likely to make an impact.
+            <b>Meet supply and demand</b> across a whole map of goods. Read what each town and industry wants,
+            get there first, and diversify &mdash; putting everything into one commodity is how empires fall.
         </p>
 
         <p>
-            <b>Custom maps</b> allow for you to not only take your corporation to Hawaii, Australia or Europe but also to the rest of the world... and maybe even mars! It all comes down to the creativity of the Trains & Things community.
+            <b>Run the company, not just the trains.</b> Take a loan to fund the next expansion and try not to
+            sink under the repayments before the routes start paying for themselves.
         </p>
-        
+
         <p>
-            <b>Mod support</b> helps extend a game's life time. Games without mod support are played once and fall into the vortex of unforgettable games. Yet those games with great mod support last longer and allows for those budding developers in the community to sharpen their craft.
+            <b>Custom maps</b> take your company to Hawaii, Australia, Europe &mdash; the rest of the world, and
+            maybe even Mars. It comes down to the creativity of the community.
+        </p>
+
+        <p>
+            <b>Mod support</b> is what keeps a game alive. Games without it get played once; games with it keep
+            finding new things to be, and give the budding developers in the community somewhere to sharpen
+            their craft.
+        </p>
+
+        <p>
+            <b>Bring friends if you want them.</b> Everything above plays solo. When you'd rather not be alone,
+            the whole game also runs head to head or co-operatively over the internet or a LAN, cross-platform
+            between Windows, macOS and Linux.
         </p>
     </div>
 
@@ -139,7 +174,7 @@
         
         <div class="col-md-8">
             <p>
-            <b>Cross platform multiplayer</b> between Windows and Linux works out of the box because your OS shouldn't be a barrier to playing. With the potential of Mac if there is enough interest.
+            <b>Cross platform multiplayer</b> between Windows, macOS and Linux works out of the box, because your OS shouldn't be a barrier to playing. Native builds on all three, and they all play together in the same game.
             </p>
         </div>
         
@@ -173,10 +208,21 @@
         
         <div class="col-md-9">
             <p>
-                <b>Built on Godot and open source tools</b>. We tried Unity on our last project, Dog Fight, but it was severely limited so we moved to UE4 which was which significantly better but not without its own problems. This time around we are working with the Godot engine which has improved the turn around time to go from idea, to development, to reality. 
+                <b>Built on Godot and open source tools</b>, which is a large part of why the Windows, macOS and
+                Linux builds are equals rather than one real version and two afterthoughts.
             </p>
         </div>
-        
+
+    </div>
+</div>
+
+<div class="container">
+    <div class="row highlights">
+        <div class="col-md-12">
+            <p>
+                After something faster? <a href="/dog-fight"><b>Dog Fight</b></a> is our couch party game &mdash; up to 8 players, one screen, frantic air combat.
+            </p>
+        </div>
     </div>
 </div>
 

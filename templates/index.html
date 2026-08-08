@@ -1,6 +1,24 @@
 {% set active = "" %}
-{% set title = "bitshift" %}
+{% set title = "bitshift — indie games from South Australia" %}
+{% set description = "Small indie studio from South Australia. Makers of Trains &amp; Things, a real-time economic strategy game, and Dog Fight, an 8-player couch party game." %}
+{% set path = "/" %}
 {% include '_header.html' %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "bitshift",
+  "url": "https://bitshiftio.netlify.app/",
+  "description": "Small indie studio from South Australia, making games we'd want to play.",
+  "email": "supagu@gmail.com",
+  "sameAs": [
+    "https://www.youtube.com/channel/UC5Ka_2-Q35r2-U1m7VblPLg",
+    "https://github.com/bit-shift-io",
+    "https://gitlab.com/bitshift-io"
+  ]
+}
+</script>
 
 <div class="jumbotron-filter"></div>
 <div class="jumbotron jumbotron-default-bg parallax-bg">
@@ -26,7 +44,7 @@
         </div>
         <div class="col-md-4 intro">
         <h1 class="main-title">Trains &amp; Things</h1>
-        <p>Build a logistics company from the ground up in this real time multiplayer focused economic strategy game.</p>
+        <p>Build a rail empire from a single track to a continent-spanning logistics network. Real-time economic strategy, solo or with friends.</p>
         </div>
     </div>
   </a>
@@ -36,7 +54,7 @@
     <div class="row feature-card feature-card-left grow2 jumbotron-dog-fight-bg" style="height: 400px;">
         <div class="col-md-4 intro">
         <h1 class="main-title">Dog Fight</h1>
-        <p>The ultimate couch party game. Battle head to head with up to 8 players (cooperatively or versus). Or test your skill against waves of ever amassing enemies.</p>
+        <p>The ultimate couch party game. Up to 8 players, one screen, frantic air combat &mdash; versus, co-op, or survive the waves together.</p>
         </div>
     </div>
   </a>
