@@ -17,6 +17,11 @@
 </url>
 
 <url>
+  <loc>https://bitshiftio.netlify.app/gravity-orbital-arena</loc>
+  <changefreq>monthly</changefreq>
+</url>
+
+<url>
   <loc>https://bitshiftio.netlify.app/trains-and-things</loc>
   <changefreq>monthly</changefreq>
 </url>

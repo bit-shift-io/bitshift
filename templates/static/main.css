@@ -902,6 +902,10 @@ svg {
     background-image: url('https://steamcdn-a.akamaihd.net/steam/apps/878030/ss_29fb919f835a8649a26516b9225b2966ee9b4f3b.1920x1080.jpg?t=1578537942');
 }
 
+.jumbotron-gravity-bg {
+    background-image: url('gravity/screenshot-04.jpg');
+}
+
 /* Use this id on stuff we dont want to display on mobile/low res devices */
 @media only screen and (max-width: 768px) {
     .jumbotron-default-bg {
@@ -914,6 +918,10 @@ svg {
     
     .jumbotron-trains-and-things-bg {
         background-image: url('https://steamcdn-a.akamaihd.net/steam/apps/878030/ss_7253eb54282375ad2b9ff63774585e402375dcc4.600x338.jpg?t=1558071574') !important;
+    }
+
+    .jumbotron-gravity-bg {
+        background-image: url('gravity/screenshot-04-thumb.jpg') !important;
     }
 }
 

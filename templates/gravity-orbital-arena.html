@@ -1,0 +1,94 @@
+{% set active = "gravity" %}
+{% set title = "Gravity: Orbital Arena — local space duel for 2-6 players | bitshift" %}
+{% set description = "Gravity: Orbital Arena is a vector-style space duel for 2-6 players. Fly between polygon worlds, land to become a tank, and use gravity to land the shot. Local multiplayer with AI bots." %}
+{% set path = "/gravity-orbital-arena" %}
+{% set og_image = "og-gravity.jpg" %}
+{% include '_header.html' %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Gravity: Orbital Arena",
+  "url": "https://bitshiftio.netlify.app/gravity-orbital-arena",
+  "image": "https://bitshiftio.netlify.app/static/og-gravity.jpg",
+  "description": "A vector-style local multiplayer space duel for 2-6 players. Fly between polygon worlds, land to become a tank, and bend your shots with gravity. Human and AI pilots, best of five rounds.",
+  "genre": ["Action", "Arcade", "Party"],
+  "gamePlatform": ["PC"],
+  "playMode": ["MultiPlayer", "SinglePlayer"],
+  "numberOfPlayers": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 6 },
+  "author": { "@type": "Organization", "name": "bitshift", "url": "https://bitshiftio.netlify.app/" },
+  "sameAs": "https://store.steampowered.com/app/5389400/"
+}
+</script>
+
+<div class="jumbotron-filter"></div>
+<div class="jumbotron jumbotron-gravity-bg parallax-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 intro">
+        <h1 class="main-title">Gravity: Orbital Arena</h1>
+        <p>A vector-style space duel for two to six players. Every world pulls, every shot curves &mdash; fly it, land on it, and use it against your friends.</p>
+      </div>
+
+      <div class="col-md-6 news-column">
+        {% include '_blog-embed.html' %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row highlights">
+    <div class="col-md-6 intro">
+
+<div class="store-widget">
+    <iframe src="https://store.steampowered.com/widget/5389400/" frameborder="0" width="100%" height="190"></iframe>
+</div>
+
+<h1 class="intro-title">One hit. Every shot counts.</h1>
+
+<p>
+Gravity is a glowing, old-school arena duel where one hit is all it takes. Pilots fight across drifting polygon worlds that tug at everything near them &mdash; ships, shells and asteroids alike &mdash; so a straight line is never the shortest way to a kill. Rounds are quick, the controls are three buttons, and the rematch button is right there.
+</p>
+
+<h1 class="intro-title">Features</h1>
+<ul>
+    <li><b>Gravity does the aiming.</b> Every world bends your flight path and your shots. Slingshot around a rock, or lob a shell over one into someone hiding behind it.</li>
+    <li><b>Land and become a tank.</b> Touch down gently on any world to refuel and swing a turret. Touch down too hard and you're a crater.</li>
+    <li><b>Charge and detonate.</b> Hold to charge a shell, release to fire, then trigger it remotely at the perfect moment. Blasts don't care whose side you're on &mdash; yours included.</li>
+    <li><b>Asteroids split and spin</b> through the arena, pulling on the action and breaking apart when hit.</li>
+    <li><b>Fresh levels every match.</b> Each match generates a new layout, so no two arenas are the same.</li>
+    <li><b>Best of five.</b> First to three round wins takes the match.</li>
+</ul>
+
+<h1 class="intro-title">Play together, on one screen</h1>
+<ul>
+    <li><b>2&ndash;6 players</b> on a single screen, any mix of humans and bots</li>
+    <li><b>Keyboards and gamepads</b> &mdash; three keyboard layouts side by side (WASD, arrows, IJKL) or plug in controllers</li>
+    <li><b>Nine AI personalities</b> &mdash; Hunters, Snipers, Artillery, Kamikazes and more, each at easy or hard, so a solo practice session still bites back</li>
+    <li><b>Rotate, thrust, fire.</b> That's the whole control scheme.</li>
+</ul>
+    </div>
+
+    <div class="col-md-6">
+        <a href="static/gravity/screenshot-02.jpg" target="_blank"><img src="static/gravity/screenshot-02.jpg" alt="Six pilots fighting around polygon worlds in Gravity: Orbital Arena"/></a>
+        <a href="static/gravity/screenshot-01.jpg" target="_blank"><img src="static/gravity/screenshot-01.jpg" alt="A four player match in Gravity: Orbital Arena"/></a>
+        <a href="static/gravity/screenshot-03.jpg" target="_blank"><img src="static/gravity/screenshot-03.jpg" alt="Ships dodging between worlds in Gravity: Orbital Arena"/></a>
+        <a href="static/gravity/screenshot-04.jpg" target="_blank"><img src="static/gravity/screenshot-04.jpg" alt="A tank on a world's surface lining up a shot in Gravity: Orbital Arena"/></a>
+        <a href="static/gravity/screenshot-05.jpg" target="_blank"><img src="static/gravity/screenshot-05.jpg" alt="A six player dogfight in Gravity: Orbital Arena"/></a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+    <div class="row highlights">
+        <div class="col-md-12">
+            <p>
+                Got a bigger couch? <a href="/dog-fight"><b>Dog Fight</b></a> is our 8-player couch party air combat game &mdash; same one-screen chaos, with propellers.
+            </p>
+        </div>
+    </div>
+</div>
+
+{% include '_footer.html' %}
