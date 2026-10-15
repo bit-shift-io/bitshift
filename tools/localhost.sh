@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd ../public
-python3 -m http.server
+cd "$(dirname "$0")"
+python3 dev.py
